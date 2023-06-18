@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF5A5F222A3F3DAB00CCFB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F212A3F3DAB00CCFB0E /* AppDelegate.swift */; };
+		EF5A5F242A3F3DAB00CCFB0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F232A3F3DAB00CCFB0E /* SceneDelegate.swift */; };
+		EF5A5F262A3F3DAB00CCFB0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F252A3F3DAB00CCFB0E /* ViewController.swift */; };
+		EF5A5F292A3F3DAB00CCFB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A5F272A3F3DAB00CCFB0E /* Main.storyboard */; };
+		EF5A5F2B2A3F3DAC00CCFB0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5A5F2A2A3F3DAC00CCFB0E /* Assets.xcassets */; };
+		EF5A5F2E2A3F3DAC00CCFB0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF5A5F2C2A3F3DAC00CCFB0E /* LaunchScreen.storyboard */; };
+		EF5A5F392A3F3DAC00CCFB0E /* Anabada_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F382A3F3DAC00CCFB0E /* Anabada_iOSTests.swift */; };
+		EF5A5F432A3F3DAC00CCFB0E /* Anabada_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F422A3F3DAC00CCFB0E /* Anabada_iOSUITests.swift */; };
+		EF5A5F452A3F3DAC00CCFB0E /* Anabada_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5A5F442A3F3DAC00CCFB0E /* Anabada_iOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF5A5F352A3F3DAC00CCFB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5A5F162A3F3DAB00CCFB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5A5F1D2A3F3DAB00CCFB0E;
+			remoteInfo = Anabada_iOS;
+		};
+		EF5A5F3F2A3F3DAC00CCFB0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF5A5F162A3F3DAB00CCFB0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF5A5F1D2A3F3DAB00CCFB0E;
+			remoteInfo = Anabada_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF5A5F1E2A3F3DAB00CCFB0E /* Anabada_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anabada_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A5F212A3F3DAB00CCFB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF5A5F232A3F3DAB00CCFB0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF5A5F252A3F3DAB00CCFB0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF5A5F282A3F3DAB00CCFB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF5A5F2A2A3F3DAC00CCFB0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5A5F2D2A3F3DAC00CCFB0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF5A5F2F2A3F3DAC00CCFB0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5A5F342A3F3DAC00CCFB0E /* Anabada_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Anabada_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A5F382A3F3DAC00CCFB0E /* Anabada_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anabada_iOSTests.swift; sourceTree = "<group>"; };
+		EF5A5F3E2A3F3DAC00CCFB0E /* Anabada_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Anabada_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5A5F422A3F3DAC00CCFB0E /* Anabada_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anabada_iOSUITests.swift; sourceTree = "<group>"; };
+		EF5A5F442A3F3DAC00CCFB0E /* Anabada_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anabada_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5A5F1B2A3F3DAB00CCFB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F312A3F3DAC00CCFB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F3B2A3F3DAC00CCFB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5A5F152A3F3DAB00CCFB0E = {
+			isa = PBXGroup;
+			children = (
+				EF5A5F202A3F3DAB00CCFB0E /* Anabada_iOS */,
+				EF5A5F372A3F3DAC00CCFB0E /* Anabada_iOSTests */,
+				EF5A5F412A3F3DAC00CCFB0E /* Anabada_iOSUITests */,
+				EF5A5F1F2A3F3DAB00CCFB0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5A5F1F2A3F3DAB00CCFB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A5F1E2A3F3DAB00CCFB0E /* Anabada_iOS.app */,
+				EF5A5F342A3F3DAC00CCFB0E /* Anabada_iOSTests.xctest */,
+				EF5A5F3E2A3F3DAC00CCFB0E /* Anabada_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5A5F202A3F3DAB00CCFB0E /* Anabada_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A5F212A3F3DAB00CCFB0E /* AppDelegate.swift */,
+				EF5A5F232A3F3DAB00CCFB0E /* SceneDelegate.swift */,
+				EF5A5F252A3F3DAB00CCFB0E /* ViewController.swift */,
+				EF5A5F272A3F3DAB00CCFB0E /* Main.storyboard */,
+				EF5A5F2A2A3F3DAC00CCFB0E /* Assets.xcassets */,
+				EF5A5F2C2A3F3DAC00CCFB0E /* LaunchScreen.storyboard */,
+				EF5A5F2F2A3F3DAC00CCFB0E /* Info.plist */,
+			);
+			path = Anabada_iOS;
+			sourceTree = "<group>";
+		};
+		EF5A5F372A3F3DAC00CCFB0E /* Anabada_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A5F382A3F3DAC00CCFB0E /* Anabada_iOSTests.swift */,
+			);
+			path = Anabada_iOSTests;
+			sourceTree = "<group>";
+		};
+		EF5A5F412A3F3DAC00CCFB0E /* Anabada_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF5A5F422A3F3DAC00CCFB0E /* Anabada_iOSUITests.swift */,
+				EF5A5F442A3F3DAC00CCFB0E /* Anabada_iOSUITestsLaunchTests.swift */,
+			);
+			path = Anabada_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5A5F1D2A3F3DAB00CCFB0E /* Anabada_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A5F482A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOS" */;
+			buildPhases = (
+				EF5A5F1A2A3F3DAB00CCFB0E /* Sources */,
+				EF5A5F1B2A3F3DAB00CCFB0E /* Frameworks */,
+				EF5A5F1C2A3F3DAB00CCFB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anabada_iOS;
+			productName = Anabada_iOS;
+			productReference = EF5A5F1E2A3F3DAB00CCFB0E /* Anabada_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF5A5F332A3F3DAC00CCFB0E /* Anabada_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A5F4B2A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOSTests" */;
+			buildPhases = (
+				EF5A5F302A3F3DAC00CCFB0E /* Sources */,
+				EF5A5F312A3F3DAC00CCFB0E /* Frameworks */,
+				EF5A5F322A3F3DAC00CCFB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5A5F362A3F3DAC00CCFB0E /* PBXTargetDependency */,
+			);
+			name = Anabada_iOSTests;
+			productName = Anabada_iOSTests;
+			productReference = EF5A5F342A3F3DAC00CCFB0E /* Anabada_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF5A5F3D2A3F3DAC00CCFB0E /* Anabada_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5A5F4E2A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOSUITests" */;
+			buildPhases = (
+				EF5A5F3A2A3F3DAC00CCFB0E /* Sources */,
+				EF5A5F3B2A3F3DAC00CCFB0E /* Frameworks */,
+				EF5A5F3C2A3F3DAC00CCFB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF5A5F402A3F3DAC00CCFB0E /* PBXTargetDependency */,
+			);
+			name = Anabada_iOSUITests;
+			productName = Anabada_iOSUITests;
+			productReference = EF5A5F3E2A3F3DAC00CCFB0E /* Anabada_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5A5F162A3F3DAB00CCFB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EF5A5F1D2A3F3DAB00CCFB0E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EF5A5F332A3F3DAC00CCFB0E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF5A5F1D2A3F3DAB00CCFB0E;
+					};
+					EF5A5F3D2A3F3DAC00CCFB0E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EF5A5F1D2A3F3DAB00CCFB0E;
+					};
+				};
+			};
+			buildConfigurationList = EF5A5F192A3F3DAB00CCFB0E /* Build configuration list for PBXProject "Anabada_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5A5F152A3F3DAB00CCFB0E;
+			productRefGroup = EF5A5F1F2A3F3DAB00CCFB0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5A5F1D2A3F3DAB00CCFB0E /* Anabada_iOS */,
+				EF5A5F332A3F3DAC00CCFB0E /* Anabada_iOSTests */,
+				EF5A5F3D2A3F3DAC00CCFB0E /* Anabada_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5A5F1C2A3F3DAB00CCFB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A5F2E2A3F3DAC00CCFB0E /* LaunchScreen.storyboard in Resources */,
+				EF5A5F2B2A3F3DAC00CCFB0E /* Assets.xcassets in Resources */,
+				EF5A5F292A3F3DAB00CCFB0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F322A3F3DAC00CCFB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F3C2A3F3DAC00CCFB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5A5F1A2A3F3DAB00CCFB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A5F262A3F3DAB00CCFB0E /* ViewController.swift in Sources */,
+				EF5A5F222A3F3DAB00CCFB0E /* AppDelegate.swift in Sources */,
+				EF5A5F242A3F3DAB00CCFB0E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F302A3F3DAC00CCFB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A5F392A3F3DAC00CCFB0E /* Anabada_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF5A5F3A2A3F3DAC00CCFB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5A5F432A3F3DAC00CCFB0E /* Anabada_iOSUITests.swift in Sources */,
+				EF5A5F452A3F3DAC00CCFB0E /* Anabada_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF5A5F362A3F3DAC00CCFB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5A5F1D2A3F3DAB00CCFB0E /* Anabada_iOS */;
+			targetProxy = EF5A5F352A3F3DAC00CCFB0E /* PBXContainerItemProxy */;
+		};
+		EF5A5F402A3F3DAC00CCFB0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF5A5F1D2A3F3DAB00CCFB0E /* Anabada_iOS */;
+			targetProxy = EF5A5F3F2A3F3DAC00CCFB0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF5A5F272A3F3DAB00CCFB0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5A5F282A3F3DAB00CCFB0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF5A5F2C2A3F3DAC00CCFB0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF5A5F2D2A3F3DAC00CCFB0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF5A5F462A3F3DAC00CCFB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF5A5F472A3F3DAC00CCFB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5A5F492A3F3DAC00CCFB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Anabada_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF5A5F4A2A3F3DAC00CCFB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Anabada_iOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF5A5F4C2A3F3DAC00CCFB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anabada_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anabada_iOS";
+			};
+			name = Debug;
+		};
+		EF5A5F4D2A3F3DAC00CCFB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anabada_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Anabada_iOS";
+			};
+			name = Release;
+		};
+		EF5A5F4F2A3F3DAC00CCFB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Anabada_iOS;
+			};
+			name = Debug;
+		};
+		EF5A5F502A3F3DAC00CCFB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anabada.Anabada-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Anabada_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5A5F192A3F3DAB00CCFB0E /* Build configuration list for PBXProject "Anabada_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A5F462A3F3DAC00CCFB0E /* Debug */,
+				EF5A5F472A3F3DAC00CCFB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5A5F482A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A5F492A3F3DAC00CCFB0E /* Debug */,
+				EF5A5F4A2A3F3DAC00CCFB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5A5F4B2A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A5F4C2A3F3DAC00CCFB0E /* Debug */,
+				EF5A5F4D2A3F3DAC00CCFB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5A5F4E2A3F3DAC00CCFB0E /* Build configuration list for PBXNativeTarget "Anabada_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5A5F4F2A3F3DAC00CCFB0E /* Debug */,
+				EF5A5F502A3F3DAC00CCFB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5A5F162A3F3DAB00CCFB0E /* Project object */;
+}
